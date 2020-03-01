@@ -1,0 +1,4 @@
+1)Add our APT repo: echo "deb https://assets.checkra.in/debian /" | sudo tee -a /etc/apt/sources.list
+2)Add our public key: sudo apt-key adv --fetch-keys https://assets.checkra.in/debian/archive.key
+3)sudo apt update
+4) sudo apt-get intsall checkra1n
